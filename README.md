@@ -27,13 +27,13 @@ The system is optimized for high-confidence tracking and stable real-time perfor
 ## Project Structure
 
 ```text
-hand-tracking/
-├── hand_tracking.py        # Main script
-├── hand_landmarker.task    # Pre-trained MediaPipe model
-├── LICENSE                 # MIT License
-├── .gitignore              # Files to ignore in Git
-├── README.md               # Documentation
-└── requirements.txt        # Dependencies
+├── Motion Tracking/           # Source folder
+│   ├── finger_detection.py    # Main script
+│   └── hand_landmarker.task   # MediaPipe model
+├── .gitignore                 # Git ignore rules
+├── LICENSE                    # MIT License
+├── README.md                  # Documentation
+└── requirments.txt            # Dependencies
 ```
 
 ---
