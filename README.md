@@ -25,11 +25,16 @@ The system is optimized for high-confidence tracking and stable real-time perfor
 ---
 
 ## Project Structure
+
+```text
 hand-tracking/
-│── hand_tracking.py          # Main script
-│── hand_landmarker.task      # Pre-trained MediaPipe model (included)
-│── README.md                 # Documentation
-│── requirements.txt          # Dependencies (optional)
+├── hand_tracking.py        # Main script
+├── hand_landmarker.task    # Pre-trained MediaPipe model
+├── LICENSE                 # MIT License
+├── .gitignore              # Files to ignore in Git
+├── README.md               # Documentation
+└── requirements.txt        # Dependencies
+```
 
 ---
 
@@ -130,6 +135,6 @@ Lower values → more detections, more noise
 
 ## License
 
-``LICENSE``
+This project is licensed under the **MIT License**.
 
----
+See the [LICENSE](LICENSE) file for details.
