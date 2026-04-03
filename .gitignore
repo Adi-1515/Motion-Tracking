@@ -1,15 +1,16 @@
-# MediaPipe / OpenCV
-*.log
-*.h5
-*.tflite
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Large model files (keep or remove depending on repo strategy)
-# If your .task file is small and required → DO NOT ignore it
-# If large → ignore and provide download link instead
-# hand_landmarker.task
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
 
-# Video / image outputs
-*.mp4
-*.avi
-*.png
-*.jpg
+# OS generated files
+.DS_Store
+Thumbs.db
+
